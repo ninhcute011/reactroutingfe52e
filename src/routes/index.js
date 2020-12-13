@@ -6,6 +6,7 @@ import HocPage from "../containers/HomeTemplate/HocPage";
 import DashboardPage from "../containers/AdminTemplate/DashboardPage";
 import AddUserPage from "../containers/AdminTemplate/AddUserPage";
 import HooksPage from "containers/HomeTemplate/HooksPage/index";
+import MaterialPage from "containers/HomeTemplate/MaterialPage/index";
 
 const routesHome = [
   {
@@ -42,6 +43,11 @@ const routesHome = [
     exact: false,
     path: "/hooks",
     component: HooksPage,
+  },
+  {
+    exact: false,
+    path: "/material",
+    component: MaterialPage,
   },
 ];
 
