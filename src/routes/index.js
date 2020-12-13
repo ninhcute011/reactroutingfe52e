@@ -25,7 +25,7 @@ const routesHome = [
     component: AboutPage,
   },
   {
-    exact: false,
+    exact: true,
     path: "/list-movie",
     component: ListMoviePage,
   },
