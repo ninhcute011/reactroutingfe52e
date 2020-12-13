@@ -1,0 +1,102 @@
+==== Buổi 1 ====
+   Chạy 1 lần duy nhất: npm install create-react-app -g
+   Câu lệnh cài project: create-react-app tenProject
+   Câu lệnh chạy project: npm start
+   npm install: Cài lại node_modules
+
+* Component:
+   - Stateful Component: class
+   - Stateless Component: function
+
+*Baitap3 
+   - Header 
+   - Carousel
+   - ListProduct
+      - ItemProduct
+      - ItemProduct
+      - ItemProduct
+      - ItemProduct
+   - Promotion
+
+============== Buổi 2 ===============
+* Rendering Elements: {}
+* Handling Events: onClick
+* State
+* List keys
+
+============== Buoi 3 ==============
+* Props: Truyền dữ liệu từ Component Cha => Component Con
+   + class: mặc định có this.props
+   + function: phải có tham số props trên function
+   + children
+* Lifting State Up: Truyền dữ liệu từ Component Con => Component Cha
+* Shopping cart
+
+============== Buoi 4 ==============
+* Usermanagement
+
+============== Buoi 5 ==============
+* Usermanagement Redux
+
+============== Buoi 6 ==============
+*Form validation 
+*Lifecycle
+
+
+========== Buổi sau chuẩn bị ========
+* Tạo project mới "fe52ereactrouting"
+* install jquery bootstrap popper.js 
+* install redux react-redux (K cần tạo childReducer)
+
+============== Buoi 7 ==============
+* Routing (basic)
+    npm install react-router-dom --save
+    - Homepage
+    - About
+    - ListMovie
+ * HTTP & Axios
+    npm install axios --save  <=> fetch
+    - Lấy danh sách phim.
+
+============== Buoi 8 ==============
+    * Redux thunk <=> redux saga
+    * Loading
+    * Get Params From URL: route, component sử dụng match
+    * Detail Movie
+
+============== Buoi 9 ==============
+* HOC
+* Routing (HomeLayout & AdminLayout)
+
+npm install redux-thunk --save   
+
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(
+  rootReducer,
+  composeEnhancers(applyMiddleware(thunk))
+);
+
+============== Buoi 10 ==============
+* Login Auth
+
+============== Buoi 11 ==============
+* Logout Auth
+* Add user
+* Token
+
+============== Buoi 12 ==============
+    * HOOKS
+    * Material UI
+
+
+* Domain: abc.com, abc.com.vn, abc.net
+* Hosting: 
+
+
+
+
+
+
